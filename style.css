@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5eaa75;
+}
+.header{
+   background-color: #33af58;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0px;
+    height: 300px;
+    margin-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 15px;
+   
+}
+.h1{
+    color: #ffffff;
+   
+}
+.zoro{
+    border-radius: 50%;
+    height: 180px;
+    display: block;
+}
+.second{
+    
+    padding-top:15px ;
+  
+
+}
+.fifth{
+    padding-top: 2px;
+    margin-top: 2px;
+}
+p{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+hr{
+    border: dotted #e0baf1 6px;
+    border-bottom-color: rgb(234, 246, 246);
+    border-bottom-style: dotted;
+    border-bottom-width: 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.seventh{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1 , 1fr);
+    width: 50%;
+    margin: 50px auto 0px 600px;
+    text-align: left;
+}
+
+
+
+.fourth{
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.contact{
+    text-align: center;
+}
+.contacth2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.href-contact{
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #e01010;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+}
+.btn{
+    background-color: #229544;
+    
+    
+}
+footer{
+    background-color: #229544;
+    margin-bottom: 0px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.bottom-container {
+    background-color: #158938;
+    padding: 50px 0 20px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  a {
+    color: #3ae08a;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  .copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+  .zoro-sleep{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .seventh{
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px){
+    .zoro-sleep{
+        height: 200px;
+       
+    }
+}
